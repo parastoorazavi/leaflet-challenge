@@ -19,9 +19,14 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/2-BasicMap.png)
 
-You need to create a scatter plot between two of the data variables such as Healthcare vs. Poverty or Smokers vs. Age.
+Your first task is to visualize an earthquake data set.
 
-Using the D3 techniques we taught you in class, create a scatter plot that represents each state with circle elements. You'll code this graphic in the app.js file of your homework directory—make sure you pull in the data from data.csv by using the d3.csv function. Your scatter plot should ultimately appear like the image at the top of this section.
+### Get your data set
+
+![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/2-BasicMap.png)
+
+The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON Feed page and pick a data set to visualize. When you click on a data set, for example 'All Earthquakes from the Past 7 Days', you will be given a JSON representation of that data. You will be using the URL of this JSON to pull in the data for our visualization.
+
 
 •	Include state abbreviations in the circles. 
 

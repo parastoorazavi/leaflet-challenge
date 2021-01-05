@@ -44,18 +44,16 @@ Create a map using Leaflet that plots all of the earthquakes from your data set 
 
 ## ⏱Bonus Part -	Level 2: More Data <a name = "bonus_part"></a>
 
-![Bar Chart](https://github.com/parastoorazavi/D3-challenge/blob/main/Images/7-animated-scatter.gif)
+![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/5-Advanced.png)
 
 **More Data, More Dynamics:** <br>
-You're going to include more demographics and more risk factors. Place additional labels in your scatter plot and give them click events so that your users can decide which data to display. Animate the transitions for your circles' locations as well as the range of your axes. Do this for two risk factors for each axis. Or, for an extreme challenge, create three for each axis.
+The USGS wants you to plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.
 
-•	Hint: Try binding all of the CSV data to your circles. This will let you easily determine their x or y values when you click the labels. 
+In this step we are going to..
 
-**Incorporate d3-tip:** <br>
+•	Plot a second data set on our map.
 
-While the ticks on the axes allow us to infer approximate values for each circle, it's impossible to determine the true value without adding another layer of data. Enter tooltips: developers can implement these in their D3 graphics to reveal a specific element's data when the user hovers their cursor over the element. Add tooltips to your circles and display each tooltip with the data that the user has selected. Use the d3-tip.js plugin developed by Justin Palmer—we've already included this plugin in your assignment directory.
+•	Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
 
-![Bar Chart](https://github.com/parastoorazavi/D3-challenge/blob/main/Images/8-tooltip.gif)
-
-•	Check out David Gotz's example to see how you should implement tooltips with d3-tip.
+•	Add layer controls to our map.
 

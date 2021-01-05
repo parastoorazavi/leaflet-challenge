@@ -1,5 +1,5 @@
 # Leaflet Homework - Visualizing Data with Leaflet
-![Bar Chart](https://github.com/parastoorazavi/D3-challenge/blob/main/Images/4-scatter.jpg)
+![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/1-Logo.png)
 
 
 ## 📝 Table of Contents

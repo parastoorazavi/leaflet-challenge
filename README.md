@@ -1,4 +1,4 @@
-# leaflet-challenge
+# Leaflet Homework - Visualizing Data with Leaflet
 
 
 ## 📝 Table of Contents
@@ -8,16 +8,13 @@
 - [Bonus Part](#bonus_part)
 
 ## 🧐 About <a name = "about"></a>
-Welcome to the newsroom! You've just accepted a data visualization position for a major metro paper. You're tasked with analyzing the current trends shaping people's lives, as well as creating charts, graphs, and interactive elements to help readers understand your findings.
+Welcome to the United States Geological Survey, or USGS for short! The USGS is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. As a new hire, you will be helping them out with an exciting new project!
 
-The editor wants to run a series of feature stories about the health risks facing particular demographics. She's counting on you to sniff out the first story idea by sifting through information from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.
-
-The data set included with the assignment is based on 2014 ACS 1-year estimates: https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml, but you are free to investigate a different data set. The current data set includes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
-
+The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
 ## 💻 Getting Started <a name = "getting_started"></a>
 
-**D3 Dabbler:** <br>
+**Level 1: Basic Visualization:** <br>
 
 ![Bar Chart](https://github.com/parastoorazavi/D3-challenge/blob/main/Images/4-scatter.jpg)
 

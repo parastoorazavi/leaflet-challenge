@@ -21,25 +21,28 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 Your first task is to visualize an earthquake data set.
 
-### Get your data set
+### Get your data set:
 
 ![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/3-Data.png)
 
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON Feed page and pick a data set to visualize. When you click on a data set, for example 'All Earthquakes from the Past 7 Days', you will be given a JSON representation of that data. You will be using the URL of this JSON to pull in the data for our visualization.
 
-![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/3-Data.png)
+![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/4-JSON.png)
+
+### Import & Visualize the Data:
+
+Create a map using Leaflet that plots all of the earthquakes from your data set based on their longitude and latitude.
+
+•	Your data markers should reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes should appear larger and darker in color.
+
+•	Include popups that provide additional information about the earthquake when a marker is clicked.
+
+•	Create a legend that will provide context for your map data.
+
+•	Your visualization should look something like the map above.
 
 
-•	Include state abbreviations in the circles. 
-
-•	Create and situate your axes and labels to the left and bottom of the chart.
-
-•	Note: You'll need to use python -m http.server to run the visualization. This will host the page at localhost:8000 in your web browser.
-
-
-## ⏱Bonus Part -	Impress the Boss. <a name = "bonus_part"></a>
-
-Why make a static graphic when D3 lets you interact with your data?
+## ⏱Bonus Part -	Level 2: More Data <a name = "bonus_part"></a>
 
 ![Bar Chart](https://github.com/parastoorazavi/D3-challenge/blob/main/Images/7-animated-scatter.gif)
 

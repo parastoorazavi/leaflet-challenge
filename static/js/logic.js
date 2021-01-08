@@ -42,7 +42,7 @@ function createFeatures(earthquakeData) {
 
   function onEachFeature(feature, layer) {
     layer.bindPopup("<h3>" + feature.properties.place +
-      "</h3><hr><p>" + new Date(feature.properties.time) + "</p>");
+      "</h3><hr><p>Magnitude:" +feature.properties.mag+ "</p>"+"<p>"+ new Date(feature.properties.time) + "</p>");
   }
 
 
@@ -53,19 +53,11 @@ function createFeatures(earthquakeData) {
     style: style,
     onEachFeature: onEachFeature
   }).addTo(myMap);
-} 
+ 
 
 var legend = L.control({position: 'bottomright'});
 
 	legend.onAdd = function (myMap) {
-    function getColor(d) {
-      return d > 5 ? '#ef5a5a' :
-             d > 4  ? '#da8b4a' :
-             d > 3  ? '#eaaf3f' :
-             d > 2  ? '#e3c826' :
-             d > 1   ? '#cbdf29' :
-                        '#a4e039';
-    }
     
 		var div = L.DomUtil.create('div', 'info legend'),
 			mhis = [0, 1, 2, 3, 4, 5],
@@ -86,3 +78,4 @@ var legend = L.control({position: 'bottomright'});
 	};
 
 	legend.addTo(myMap);
+}

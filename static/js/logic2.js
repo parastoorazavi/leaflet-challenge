@@ -1,5 +1,5 @@
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-var tectonicplates = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json";
+var tectonicplates = "static/js/tectonic_plates.json";
 
 function getColor(d) {
   return d > 5 ? '#ef5a5a' :
@@ -41,7 +41,8 @@ d3.json(queryUrl, function(data) {
 var plates = new L.LayerGroup();
 d3.json(tectonicplates, function(data) {
   L.geoJSON(data.features, {
-    color: "orange"
+    color: "orange",
+    fillOpacity: 0
 }).addTo(plates);
 })
 
@@ -90,9 +91,9 @@ function createMap() {
   // Create our map, giving it the streetmap and earthquakes layers to display on load
   var myMap = L.map("map", {
     center: [
-      15, -80
+      15, -40
     ],
-    zoom: 4,
+    zoom: 3,
     layers: [satellitemap, earthquakes, plates]
   });
 

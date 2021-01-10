@@ -16,13 +16,13 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ## 💻 Getting Started <a name = "getting_started"></a>
 
-**Level 1: Basic Visualization:** <br>
+## Level 1: Basic Visualization: <br>
 
 ![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/2-BasicMap.png)
 
 Your first task is to visualize an earthquake data set.
 
-# 1. Get your data set
+**1. Get your data set** <br>
 
 ![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/3-Data.png)
 
@@ -30,7 +30,7 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 ![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/4-JSON.png)
 
-# 2. Import & Visualize the Data
+**2. Import & Visualize the Data**
 
 Create a map using Leaflet that plots all of the earthquakes from your data set based on their longitude and latitude.
 

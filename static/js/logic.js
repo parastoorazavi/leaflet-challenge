@@ -42,7 +42,7 @@ function createFeatures(earthquakeData) {
 
   function onEachFeature(feature, layer) {
     layer.bindPopup("<h3>" + feature.properties.place +
-      "</h3><hr><p>Magnitude:" +feature.properties.mag+ "</p>"+"<p>"+ new Date(feature.properties.time) + "</p>");
+      "</h3><hr><p><strong>Magnitude: " +feature.properties.mag+ "</strong></p>"+"<p>"+ new Date(feature.properties.time) + "</p>");
   }
 
 
@@ -53,7 +53,6 @@ function createFeatures(earthquakeData) {
     style: style,
     onEachFeature: onEachFeature
   }).addTo(myMap);
- 
 
 var legend = L.control({position: 'bottomright'});
 

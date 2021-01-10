@@ -14,9 +14,9 @@ Welcome to the United States Geological Survey, or USGS for short! The USGS is r
 
 The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
-# 🤓 Getting Started <a name = "getting_started"></a>
+## 🤓 Getting Started <a name = "getting_started"></a>
 
-## Level 1: Basic Visualization: <br>
+### Level 1: Basic Visualization: <br>
 
 ![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/2-BasicMap.png)
 
@@ -43,7 +43,7 @@ Create a map using Leaflet that plots all of the earthquakes from your data set 
 •	Your visualization should look something like the map above.
 
 
-## 🤯Bonus Part -	Level 2: More Data: <a name = "bonus_part"></a>
+### 🤯Bonus Part -	Level 2: More Data: <a name = "bonus_part"></a>
 
 ![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/5-Advanced.png)
 

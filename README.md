@@ -18,7 +18,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 **Level 1: Basic Visualization:** <br>
 
-![Bar Chart](https://github.com/parastoorazavi/D3-challenge/blob/main/Images/4-scatter.jpg)
+![Bar Chart](https://github.com/parastoorazavi/leaflet-challenge/blob/main/Images/2-BasicMap.png)
 
 You need to create a scatter plot between two of the data variables such as Healthcare vs. Poverty or Smokers vs. Age.
 

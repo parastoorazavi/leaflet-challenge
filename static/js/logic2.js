@@ -1,5 +1,5 @@
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-var tectonicplates = "static/js/tectonic_plates.json";
+var tectonicplates = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json";
 
 function getColor(d) {
   return d > 5 ? '#ef5a5a' :
@@ -94,7 +94,7 @@ function createMap() {
       15, -40
     ],
     zoom: 3,
-    layers: [satellitemap, earthquakes, plates]
+    layers: [satellitemap, plates, earthquakes]
   });
 
   
